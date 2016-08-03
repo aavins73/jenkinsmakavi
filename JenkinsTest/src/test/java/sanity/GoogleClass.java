@@ -10,5 +10,6 @@ public class GoogleClass {
 	  BaseTest baseTest = new BaseTest();
 	  baseTest.lunch("https://www.google.com");
 	  System.out.println("Google launched");
+	  baseTest.quit();
   }
 }

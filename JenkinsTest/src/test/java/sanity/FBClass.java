@@ -10,5 +10,6 @@ public class FBClass {
 	  BaseTest baseTest = new BaseTest();
 	  baseTest.lunch("https://www.facebook.com");
 	  System.out.println("FB launched");
+	  baseTest.quit();
   }
 }
