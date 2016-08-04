@@ -18,7 +18,7 @@ public class BaseTest {
 	 dr = DesiredCapabilities.chrome();
 	//WebDriver driver = new ChromeDriver();
 	try {
-		driver = new RemoteWebDriver(new URL("http://192.168.1.34:4444/wd/hub"),dr);
+		driver = new RemoteWebDriver(new URL("http://192.168.1.3"),dr);
 		//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),dr);
 	} catch (MalformedURLException e) {
 		// TODO Auto-generated catch block
