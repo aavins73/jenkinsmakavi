@@ -16,7 +16,7 @@ public class BaseTest {
 		
 		URL url1 = null;
 		try {
-			url1 = new URL("http://192.168.1.3:4444/wd/hub");
+			url1 = new URL("http://192.168.1.2:4444/wd/hub");
 		} catch (MalformedURLException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
